@@ -7,7 +7,7 @@ function DogDetails({ dog }) {
         <div className="row DogDetails">
             <div className="col d-flex flwx-colum align-items-center">
                 <img src={`/${dog.src}.jpg`} alt={dog.name} />
-                <h2>{dogs.name}</h2>
+                <h2>{dog.name}</h2>
                 <h3>{dog.age} years old</h3>
                 <ul>
                     {dog.facts.map((fact, i) => (
